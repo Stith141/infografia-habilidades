@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades Blandas y Sociales</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        
+        .infographic-container {
+            width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+        
+        .skills-column {
+            flex: 1;
+            padding: 15px;
+        }
+        
+        .soft-skills {
+            border-right: 1px dashed #ddd;
+        }
+        
+        .section-title {
+            color: #2b5876;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .skill-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .skill-title {
+            display: flex;
+            align-items: center;
+            color: #4e4376;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .skill-icon {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        
+        .skill-description {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #666;
+        }
+        
+        .quote-section {
+            background-color: #f0f7ff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #4e4376;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        .footer {
+            background-color: #2b5876;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+        }
+        
+        .highlight {
+            color: #4e4376;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic-container">
+        <div class="header">
+            <h1>HABILIDADES QUE TRANSFORMAN</h1>
+            <p>Blandas + Sociales para el éxito profesional y personal</p>
+        </div>
+        
+        <div class="content">
+            <div class="skills-column soft-skills">
+                <h2 class="section-title">HABILIDADES BLANDAS</h2>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">🧠</span>
+                        Inteligencia Emocional
+                    </div>
+                    <div class="skill-description">
+                        Capacidad para reconocer, entender y gestionar nuestras propias emociones y las de los demás. <span class="highlight">Clave para el liderazgo</span> y las relaciones interpersonales.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">⚖️</span>
+                        Resolución de Conflictos
+                    </div>
+                    <div class="skill-description">
+                        Habilidad para <span class="highlight">mediar en desacuerdos</span>, encontrar soluciones creativas y mantener relaciones constructivas incluso en situaciones difíciles.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">📉</span>
+                        Gestión del Estrés
+                    </div>
+                    <div class="skill-description">
+                        Capacidad para <span class="highlight">identificar fuentes de estrés</span> y aplicar estrategias efectivas para manejarlo, manteniendo el equilibrio emocional.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">🔍</span>
+                        Pensamiento Crítico
+                    </div>
+                    <div class="skill-description">
+                        Habilidad para <span class="highlight">analizar información objetivamente</span>, cuestionar suposiciones y tomar decisiones basadas en evidencia.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">🚀</span>
+                        Motivación
+                    </div>
+                    <div class="skill-description">
+                        Capacidad para <span class="highlight">mantener el impulso</span> hacia metas personales y profesionales, incluso frente a obstáculos.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-column social-skills">
+                <h2 class="section-title">HABILIDADES SOCIALES</h2>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">💬</span>
+                        Comunicación Asertiva
+                    </div>
+                    <div class="skill-description">
+                        Expresar pensamientos, sentimientos y opiniones de manera <span class="highlight">clara, directa y respetuosa</span>, defendiendo derechos sin agredir.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">🤝</span>
+                        Relaciones Interpersonales
+                    </div>
+                    <div class="skill-description">
+                        Capacidad para <span class="highlight">construir y mantener conexiones</span> significativas con diferentes tipos de personas en diversos contextos.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">👥</span>
+                        Trabajo en Equipo
+                    </div>
+                    <div class="skill-description">
+                        Habilidad para <span class="highlight">colaborar efectivamente</span>, valorando las contribuciones de otros y trabajando hacia objetivos comunes.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">❤️</span>
+                        Valores Éticos
+                    </div>
+                    <div class="skill-description">
+                        Principios que guían el comportamiento, como <span class="highlight">integridad, respeto y responsabilidad</span>, fundamentales para la convivencia.
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-title">
+                        <span class="skill-icon">👂</span>
+                        Empatía
+                    </div>
+                    <div class="skill-description">
+                        Capacidad para <span class="highlight">ponerse en el lugar del otro</span>, comprender sus perspectivas y responder adecuadamente a sus necesidades emocionales.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="quote-section">
+            "Las habilidades blandas y sociales no son complementos, son <span class="highlight">el corazón de las relaciones humanas</span> y el éxito profesional sostenible."
+        </div>
+        
+        <div class="footer">
+            © 2023 | Basado en investigación académica | Referencias APA disponibles
+        </div>
+    </div>
+</body>
+</html>
